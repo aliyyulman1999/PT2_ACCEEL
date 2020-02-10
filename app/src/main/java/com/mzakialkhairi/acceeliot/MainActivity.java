@@ -15,6 +15,8 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
     }
 
+
+    // pindah layout
     public void Mode(View view){
         Intent intent = new Intent(MainActivity.this, ModeActivity.class);
         startActivity(intent);
